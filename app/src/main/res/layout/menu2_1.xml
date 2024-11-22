@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Image Banner Section -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/menu2_1" />
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="팔보완자"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="맛있는 팔보완자를 만들어보세요."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingBottom="16dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재료"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Ingredients with Checkboxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="돼지고기 다짐육"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전분 1.5T"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="계란 1개"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소금"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="후추"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="양파"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="식용유"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오징어 한마리"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="죽순"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="표고"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="새우"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="청경채"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피망"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고추기름"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다진마늘 0.5T"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="생강 0.5T"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="참기름"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="간장 1.5T"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="굴소스 1.5T"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="청주 1.5T"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트에 재료 추가"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Instructions Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조리 단계"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 다짐육은 한번 더 꼼꼼히 다지고, 소금과 후추로 밑간한다.\n
+2. 전분 1.5T, 달걀물(노른자포함) 1개 분량을 넣고 잘 치댄다.\n
+3. 양파는 심 부분에 미리 칼집을 살짝 넣고, 고기를 너무 얇지 않게 붙여준다.\n
+4. 기름을 팬에 완자 크기의 최소 1/3이상 붓고 온도를 150~160도 사이로 예열한다.\n
+5. 노출된 부분은 기름을 끼얹어 가면서, 겉이 완전히 단단한 느낌이 될 때까지 굴려가며 익힌다.\n
+6. 완자를 돌려가며 칼로 조심스레 뚜껑을 따고 가위로 내부 양파를 잘게 부숴 집게로 꺼낸다.\n
+7. 죽순, 표고, 오징어, 새우, 청경채, 피망을 끓는 물에 70% 정도로만 데친다.\n
+8. 고추기름에 다진 마늘과 생강 각 0.5T를 타지 않게 볶다가\n
+9. 데쳐둔 식재료와 소스(간장1.5T 굴소스1.5T 청주1.5T)를 넣고 센 불에 볶는다.\n
+10. 90% 정도 익으면 물을 붓고, 전분물(전분1:물3)로 농도를 맞춰준 뒤 1분간 더 볶는다.\n
+11. 불을 끄고 참기름과 후추를 넣어서 완자와 함께 플레이팅한다."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기에 레시피 추가"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

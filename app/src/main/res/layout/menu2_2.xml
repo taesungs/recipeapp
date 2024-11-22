@@ -1,0 +1,173 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Image Banner Section -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/menu2_2" />
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시래기바쓰흑초강정"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시래기바쓰흑초강정을 만들어보세요."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingBottom="16dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Ingredients Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재료"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Ingredients with Checkboxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="설탕 950g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="물 400g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="식용유"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="불린 시래기"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="돼지고기 목살"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="간장 50g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="흑초 50g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노두유 50g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="설탕 150g"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전분"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트에 재료 추가"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Instructions Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조리 단계"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.	팬에 설탕 800g, 물을 넣고 타지 않게 끓인다.\n
+2.	바쓰를 부울 자리에 식용유를 발라준다.\n
+3.	설탕이 녹으면 저어주고 황금빛이 돌면 접시에 부어준다.\n
+4.	한 김 식혀 농도가 되직해지면 뒤집어 흔들어 식힌다.\n
+5.	돼지고기는 3cm 크기로 썰어주고 시래기는 1cm 크기로 썬다.\n
+6.	돼지고기와 시래기를 볼에 넣고 전분에 묻혀 동그랗게 뭉친다.\n
+7.	기름 넉넉하게 두른 팬에 튀겨주고 팬에 간장, 흑초, 노두유, 설탕을 넣는다.\n
+8.	살짝 졸여 7번 시래기를 넣고 골고루 입혀 바쓰를 올리면 완성."
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Share Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="즐겨찾기에 레시피 추가"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
