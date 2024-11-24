@@ -88,6 +88,7 @@
             android:gravity="center">
 
             <ImageButton
+                android:id="@+id/europe1"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:src="@drawable/europe1"
@@ -114,6 +115,7 @@
             android:gravity="center">
 
             <ImageButton
+                android:id="@+id/europe2"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:src="@drawable/europe2"

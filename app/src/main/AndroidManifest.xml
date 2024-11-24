@@ -33,10 +33,18 @@
         <activity android:name=".Korea2" />
         <activity android:name=".China1" />
         <activity android:name=".China2" />
+        <activity android:name=".Japan1" />
+        <activity android:name=".Japan2" />
+        <activity android:name=".Europe1" />
+        <activity android:name=".Europe2" />
         <activity android:name=".Menu1_1" />
         <activity android:name=".Menu1_2" />
         <activity android:name=".Menu2_1" />
         <activity android:name=".Menu2_2" />
+        <activity android:name=".Menu3_1" />
+        <activity android:name=".Menu3_2" />
+        <activity android:name=".Menu4_1" />
+        <activity android:name=".Menu4_2" />
 
 
 
