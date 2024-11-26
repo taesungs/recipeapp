@@ -1,13 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:rowCount="7"
+    android:columnCount="4"
+    android:padding="10dp"    >
 
+<!--    <ImageButton-->
+<!--        android:layout_row="0"-->
+<!--        android:layout_rowSpan="2"-->
+<!--        android:layout_column="0"-->
+<!--        android:layout_columnSpan="2"-->
+<!--        android:src="@drawable/person_icon"-->
+<!--        android:scaleType="centerInside"-->
+<!--        />-->
+
+
+    <Button
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:text="아이디" />
+
+    <Button
+        android:layout_row="1"
+        android:layout_rowSpan="2"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:text="클릭시, 변경가능" />
+    <!--    한줄소개 -->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="마이페이지 화면 입니다"
-        android:layout_margin="40dp"
-        android:textSize="40sp"/>
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:text="클릭해 이미지 변경" />
 
-</LinearLayout>
+    <Button
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:text="쇼핑카트" />
+
+    <Button
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:text="나의 평점" />
+
+    <Button
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:text="최근 본 메뉴" />
+
+    <Button
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:text="즐겨찾기" />
+
+</GridLayout>

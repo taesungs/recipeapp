@@ -45,6 +45,16 @@
         <activity android:name=".Menu3_2" />
         <activity android:name=".Menu4_1" />
         <activity android:name=".Menu4_2" />
+        <activity android:name=".Rating1_1" />
+        <activity android:name=".Rating1_2" />
+        <activity android:name=".Rating2_1" />
+        <activity android:name=".Rating2_2" />
+        <activity android:name=".Rating3_1" />
+        <activity android:name=".Rating3_2" />
+        <activity android:name=".Rating4_1" />
+        <activity android:name=".Rating4_2" />
+
+
 
 
 
