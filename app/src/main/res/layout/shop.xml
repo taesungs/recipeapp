@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/shopLayout"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
-    <TextView
-        android:id="@+id/selected_items_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="선택된 항목이 표시됩니다."
-        android:padding="16dp" />
+        android:id="@+id/recycler_view_shop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
 
+    <Button
+        android:id="@+id/button_delete_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택된 항목 삭제" />
 </LinearLayout>

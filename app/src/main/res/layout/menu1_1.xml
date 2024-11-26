@@ -162,13 +162,18 @@
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
 
-        <TextView
-            android:id="@+id/result_text"
+        <Button
+            android:id="@+id/move1_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="결과가 여기에 표시됩니다."
-            android:textSize="16sp" />
+            android:text="쇼핑카트로 이동"/>
+
+        <FrameLayout
+            android:id="@+id/shop_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
 
         <!-- Divider -->
         <View

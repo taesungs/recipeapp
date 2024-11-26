@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item1_2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="마른 김 5장"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item1_2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="참기름 2T"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item1_2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="들기름 2T"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item1_2_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="맛소금"
@@ -81,6 +85,7 @@
             android:paddingBottom="16dp" />
 
         <Button
+            android:id="@+id/shop1_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>

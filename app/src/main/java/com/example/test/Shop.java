@@ -1,34 +1,39 @@
 package com.example.test;
 
-import android.os.Bundle;
-import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 
-public class Shop extends AppCompatActivity {
+public class Shop {
 
-    private TextView selectedItemsTextView;
+    private static Shop instance;
+    private ArrayList<String> selectedItems = new ArrayList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.shop);
+    private Shop() {}
 
-        selectedItemsTextView = findViewById(R.id.selected_items_text);
-
-        // Intent로부터 데이터를 가져옴
-        ArrayList<String> selectedItems = getIntent().getStringArrayListExtra("selectedItems");
-
-        if (selectedItems != null && !selectedItems.isEmpty()) {
-            StringBuilder itemsText = new StringBuilder("선택된 항목:\n");
-            for (String item : selectedItems) {
-                itemsText.append("- ").append(item).append("\n");
-            }
-            selectedItemsTextView.setText(itemsText.toString());
-        } else {
-            selectedItemsTextView.setText("선택된 항목이 없습니다.");
+    public static synchronized Shop getInstance() {
+        if (instance == null) {
+            instance = new Shop();
         }
+        return instance;
+    }
+
+    // 데이터 업데이트
+    public void updateData(ArrayList<String> items) {
+        this.selectedItems = new ArrayList<>(items); // 새로운 데이터로 갱신
+    }
+
+    // 선택된 항목 가져오기
+    public ArrayList<String> getSelectedItems() {
+        return selectedItems;
+    }
+
+    // 선택된 항목 삭제
+    public void deleteSelectedItems(ArrayList<Integer> positionsToDelete) {
+        ArrayList<String> updatedItems = new ArrayList<>();
+        for (int i = 0; i < selectedItems.size(); i++) {
+            if (!positionsToDelete.contains(i)) {
+                updatedItems.add(selectedItems.get(i));
+            }
+        }
+        this.selectedItems = updatedItems; // 삭제 후 리스트 갱신
     }
 }
