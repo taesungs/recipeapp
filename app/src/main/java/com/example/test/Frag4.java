@@ -30,6 +30,26 @@ public class Frag4 extends Fragment {
             }
         });
 
+        Button ratingButton = view.findViewById(R.id.rating);
+        ratingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Rating.class);
+                startActivity(intent);
+            }
+        });
+
+        Button favorButton = view.findViewById(R.id.favor);
+        favorButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Favor.class);
+                startActivity(intent);
+            }
+        });
+
+
+
 
         return view;
     }

@@ -16,9 +16,16 @@ public class Shop {
         return instance;
     }
 
-    // 데이터 업데이트
+    // 데이터 추가
+    public void addData(ArrayList<String> items) {
+        if (items != null && !items.isEmpty()) {
+            selectedItems.addAll(items); // 기존 데이터에 추가
+        }
+    }
+
+    // 데이터 갱신 (새로운 데이터로 교체)
     public void updateData(ArrayList<String> items) {
-        this.selectedItems = new ArrayList<>(items); // 새로운 데이터로 갱신
+        this.selectedItems = new ArrayList<>(items);
     }
 
     // 선택된 항목 가져오기
@@ -34,6 +41,6 @@ public class Shop {
                 updatedItems.add(selectedItems.get(i));
             }
         }
-        this.selectedItems = updatedItems; // 삭제 후 리스트 갱신
+        this.selectedItems = updatedItems;
     }
 }

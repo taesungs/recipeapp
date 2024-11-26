@@ -1,5 +1,6 @@
 package com.example.test;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,8 +33,13 @@ public class Rating3_2 extends AppCompatActivity {
             public void onClick(View view) {
                 float rating = ratingBar.getRating();
                 tvScore.setText(String.valueOf("평점 : " + rating));
+
+                // SharedPreferences에 평점 저장
+                SharedPreferences sharedPreferences = getSharedPreferences("RatingData", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putFloat("쿠로 다마네기(장호준)", rating); // Rating1_1에 해당하는 키로 저장
+                editor.apply();
             }
         });
-
     }
 }

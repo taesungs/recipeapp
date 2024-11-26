@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item2_1_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="돼지고기 다짐육"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="전분 1.5T"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="계란 1개"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="소금"
@@ -81,6 +85,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="후추"
@@ -88,6 +93,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="양파"
@@ -95,6 +101,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="식용유"
@@ -102,6 +109,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="오징어 한마리"
@@ -109,6 +117,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="죽순"
@@ -116,6 +125,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="표고"
@@ -123,6 +133,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="새우"
@@ -130,6 +141,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="청경채"
@@ -137,6 +149,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="피망"
@@ -144,6 +157,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="고추기름"
@@ -151,6 +165,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="다진마늘 0.5T"
@@ -158,6 +173,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="생강 0.5T"
@@ -165,6 +181,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="참기름"
@@ -172,6 +189,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="간장 1.5T"
@@ -179,6 +197,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="굴소스 1.5T"
@@ -186,6 +205,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_1_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="청주 1.5T"
@@ -193,9 +213,16 @@
             android:paddingBottom="16dp" />
 
         <Button
+            android:id="@+id/shop2_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
+
+        <Button
+            android:id="@+id/move2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
 
         <!-- Divider -->
         <View

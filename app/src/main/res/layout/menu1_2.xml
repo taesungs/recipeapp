@@ -90,6 +90,12 @@
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
 
+        <Button
+            android:id="@+id/move1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
+
         <!-- Divider -->
         <View
             android:layout_width="match_parent"

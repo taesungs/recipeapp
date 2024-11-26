@@ -54,6 +54,10 @@
         <activity android:name=".Rating4_1" />
         <activity android:name=".Rating4_2" />
         <activity android:name=".ShopActivity" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Favor" />
+
+
 
 
 

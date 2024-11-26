@@ -73,6 +73,7 @@
 
     <!-- 나의 평점 버튼 -->
     <Button
+        android:id="@+id/rating"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_columnWeight="1"

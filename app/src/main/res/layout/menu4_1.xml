@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item4_1_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="간식 밤 1봉지"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="우유 500ml"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="크림치즈 250g"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="통밀 비스킷"
@@ -81,6 +85,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="토피넛라테"
@@ -88,6 +93,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="생크림 400ml"
@@ -95,6 +101,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="초콜릿"
@@ -102,6 +109,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_1_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="그래놀라"
@@ -110,9 +118,16 @@
 
 
         <Button
+            android:id="@+id/shop4_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
+
+        <Button
+            android:id="@+id/move4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
 
         <!-- Divider -->
         <View

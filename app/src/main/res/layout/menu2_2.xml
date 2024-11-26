@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item2_2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="설탕 950g"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="물 400g"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="식용유"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="불린 시래기"
@@ -81,6 +85,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="돼지고기 목살"
@@ -88,6 +93,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="간장 50g"
@@ -95,6 +101,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="흑초 50g"
@@ -102,6 +109,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="노두유 50g"
@@ -109,6 +117,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="설탕 150g"
@@ -116,6 +125,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item2_2_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="전분"
@@ -123,9 +133,16 @@
             android:paddingBottom="16dp" />
 
         <Button
+            android:id="@+id/shop2_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
+
+        <Button
+            android:id="@+id/move2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
 
         <!-- Divider -->
         <View

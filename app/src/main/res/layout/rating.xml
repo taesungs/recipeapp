@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_all_ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모든 평점:"
+        android:textSize="30sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_reset_ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="평점 초기화"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

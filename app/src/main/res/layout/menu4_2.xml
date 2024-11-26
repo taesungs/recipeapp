@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item4_2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="링귀네면 300g"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="올리브오일 1/2컵"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="통마늘 7알"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="소금"
@@ -81,6 +85,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="페퍼론치노 2개"
@@ -88,6 +93,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="파슬리 1/4컵"
@@ -95,6 +101,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="파마산 치즈"
@@ -102,6 +109,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item4_2_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="면수 7T"
@@ -110,9 +118,16 @@
 
 
         <Button
+            android:id="@+id/shop4_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
+
+        <Button
+            android:id="@+id/move4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
 
         <!-- Divider -->
         <View

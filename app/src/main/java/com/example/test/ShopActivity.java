@@ -24,7 +24,7 @@ public class ShopActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycler_view_shop);
         deleteSelectedButton = findViewById(R.id.button_delete_selected);
 
-        // Shop 클래스에서 전달받은 데이터 가져오기
+        // Shop 클래스에서 모든 데이터 가져오기
         ArrayList<String> selectedItems = Shop.getInstance().getSelectedItems();
 
         // RecyclerView 설정

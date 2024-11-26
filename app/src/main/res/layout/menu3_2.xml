@@ -53,6 +53,7 @@
 
         <!-- Ingredients with Checkboxes -->
         <CheckBox
+            android:id="@+id/item3_2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="양파 1개"
@@ -60,6 +61,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="대파"
@@ -67,6 +69,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="계란 8개"
@@ -74,6 +77,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가쓰오다시(혼다시) 300g"
@@ -81,6 +85,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="몽고 된장 400g"
@@ -88,6 +93,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="니키리 미림 120g"
@@ -95,6 +101,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="니키리 사케 50g"
@@ -102,6 +109,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="설탕 90g"
@@ -109,6 +117,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="생크림 500ml"
@@ -116,6 +125,7 @@
             android:paddingBottom="8dp" />
 
         <CheckBox
+            android:id="@+id/item3_2_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가쓰오부시 13g"
@@ -123,9 +133,16 @@
             android:paddingBottom="8dp" />
 
         <Button
+            android:id="@+id/shop3_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="쇼핑카트에 재료 추가"/>
+
+        <Button
+            android:id="@+id/move3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="쇼핑카트로 이동"/>
 
         <!-- Divider -->
         <View
