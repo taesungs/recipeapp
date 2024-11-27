@@ -31,7 +31,6 @@ public class Menu1_1 extends AppCompatActivity {
         buttonMove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // China.java로 화면 전환
                 Intent intent = new Intent(Menu1_1.this, ShopActivity.class);
                 startActivity(intent);
             }
@@ -41,15 +40,19 @@ public class Menu1_1 extends AppCompatActivity {
         favorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //getSharedPreferences() 메서드를 사용하여 SharedPreferences 객체를 초기화
+                //첫 번째 매개변수는 저장소 이름(FavorPrefs)이고, 두 번째 매개변수는 모드(일반적으로 MODE_PRIVATE)
                 SharedPreferences sharedPreferences = getSharedPreferences("FavorPrefs", MODE_PRIVATE);
+                //데이터를 저장하기 위해 SharedPreferences.Editor 객체를 사용
                 SharedPreferences.Editor editor = sharedPreferences.edit();
 
-                // Retrieve existing favorites
+                //저장된 데이터를 불러오려면 getStringSet() 메서드를 사용
+                //Set<String> 두 번째 매개변수는 데이터가 없을 경우 사용할 기본값(여기서는 빈 HashSet)
                 Set<String> favorites = sharedPreferences.getStringSet("favor_buttons", new HashSet<>());
-                // Add the current button name (ensure no duplicates)
-                favorites.add("제육볶음(급식대가)"); // Replace "Menu1_1" with the corresponding screen name dynamically if needed
-                // Save updated favorites
+                favorites.add("제육볶음(급식대가)");
+                //putStringSet() 메서드를 통해 데이터를 저장
                 editor.putStringSet("favor_buttons", favorites);
+                //apply() 메서드를 호출해 데이터를 비동기적으로 저장
                 editor.apply();
 
                 Toast.makeText(Menu1_1.this, "즐겨찾기에 레시피 추가", Toast.LENGTH_SHORT).show();
