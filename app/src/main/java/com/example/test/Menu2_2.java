@@ -1,14 +1,18 @@
 package com.example.test;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Menu2_2 extends AppCompatActivity {
 
@@ -32,6 +36,26 @@ public class Menu2_2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button favorButton = findViewById(R.id.favor2_2);
+        favorButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("FavorPrefs", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                // Retrieve existing favorites
+                Set<String> favorites = sharedPreferences.getStringSet("favor_buttons", new HashSet<>());
+                // Add the current button name (ensure no duplicates)
+                favorites.add("시래기바쓰흑초강정(정지선)"); // Replace "Menu1_1" with the corresponding screen name dynamically if needed
+                // Save updated favorites
+                editor.putStringSet("favor_buttons", favorites);
+                editor.apply();
+
+                Toast.makeText(Menu2_2.this, "즐겨찾기에 레시피 추가", Toast.LENGTH_SHORT).show();
+            }
+        });
+
         for(i=0;i<checkBoxID.length;i++){
             checkBox[i] = (CheckBox) findViewById(checkBoxID[i]);
         }

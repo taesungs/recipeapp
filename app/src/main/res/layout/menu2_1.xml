@@ -261,6 +261,7 @@
             android:paddingBottom="16dp" />
 
         <Button
+            android:id="@+id/favor2_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="즐겨찾기에 레시피 추가"

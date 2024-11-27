@@ -64,11 +64,11 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:id="@+id/shop"
         android:layout_row="3"
         android:layout_column="0"
         android:layout_columnSpan="4"
         android:layout_gravity="fill_horizontal"
+        android:visibility="invisible"
         android:text="쇼핑카트" />
 
     <!-- 나의 평점 버튼 -->
@@ -78,7 +78,6 @@
         android:layout_height="0dp"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-        android:layout_row="4"
         android:layout_column="0"
         android:layout_columnSpan="4"
         android:layout_gravity="fill_horizontal"
@@ -93,8 +92,9 @@
         android:layout_row="5"
         android:layout_column="0"
         android:layout_columnSpan="4"
+        android:id="@+id/shop"
         android:layout_gravity="fill_horizontal"
-        android:text="최근 본 메뉴" />
+        android:text="쇼핑카트" />
 
     <!-- 즐겨찾기 버튼 -->
     <Button
