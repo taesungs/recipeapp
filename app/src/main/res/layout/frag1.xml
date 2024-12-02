@@ -8,9 +8,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="10dp">
 
         <ImageView
+            android:paddingTop="45dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/background1"
@@ -29,7 +30,7 @@
             android:layout_height="wrap_content"
             android:text="Sorted Ratings:"
             android:layout_marginTop="20dp"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:layout_gravity="center" />
 
     </LinearLayout>

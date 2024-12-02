@@ -11,6 +11,7 @@
 
     <!-- 이미지 버튼 (좌측 상단) -->
     <ImageButton
+        android:id="@+id/imgButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_columnWeight="2"
@@ -19,11 +20,11 @@
         android:layout_rowSpan="2"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:src="@drawable/person_icon"
         android:scaleType="fitXY"/>
 
     <!-- 아이디 버튼 (우측 상단) -->
     <Button
+        android:id="@+id/idButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_columnWeight="2"
@@ -32,10 +33,13 @@
         android:layout_column="2"
         android:layout_rowSpan="1"
         android:layout_columnSpan="2"
-        android:text="아이디" />
+        android:text="아이디: ID"
+        android:textStyle="bold"
+        android:textSize="40px"/>
 
     <!-- 클릭시 변경 가능 버튼 -->
     <Button
+        android:id="@+id/edtTextbtn"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_columnWeight="2"
@@ -44,7 +48,8 @@
         android:layout_column="2"
         android:layout_columnSpan="2"
         android:layout_rowSpan="2"
-        android:text="클릭시, 변경가능" />
+        android:textSize="40px"
+        android:text="눌러서 변경가능" />
 
     <!-- 한줄 소개 텍스트뷰 (이미지 아래) -->
     <TextView
@@ -56,7 +61,8 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:gravity="center"
-        android:text="사진 누르면 사진변경" />
+        android:text="프로필사진 변경하려면\n사진을 누르세요"
+        android:textSize="18dp"/>
 
     <!-- 쇼핑카트 버튼 -->
     <Button
@@ -69,7 +75,7 @@
         android:layout_columnSpan="4"
         android:layout_gravity="fill_horizontal"
         android:visibility="invisible"
-        android:text="쇼핑카트" />
+        android:text="안보이는 부분" />
 
     <!-- 나의 평점 버튼 -->
     <Button
@@ -80,8 +86,9 @@
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnSpan="4"
-        android:layout_gravity="fill_horizontal"
-        android:text="나의 평점" />
+        android:text="나의 평점"
+        android:textSize="30dp"
+        android:textAlignment="textStart"/>
 
     <!-- 최근 본 메뉴 버튼 -->
     <Button
@@ -93,8 +100,9 @@
         android:layout_column="0"
         android:layout_columnSpan="4"
         android:id="@+id/shop"
-        android:layout_gravity="fill_horizontal"
-        android:text="쇼핑카트" />
+        android:text="쇼핑카트"
+        android:textSize="30dp"
+        android:textAlignment="textStart"/>
 
     <!-- 즐겨찾기 버튼 -->
     <Button
@@ -106,7 +114,8 @@
         android:layout_row="6"
         android:layout_column="0"
         android:layout_columnSpan="4"
-        android:layout_gravity="fill_horizontal"
-        android:text="즐겨찾기" />
+        android:text="즐겨찾기"
+        android:textSize="30dp"
+        android:textAlignment="textStart"/>
 
 </GridLayout>

@@ -10,7 +10,9 @@
     <ImageView
         android:scaleType="fitXY"
         android:layout_height="180dp"
-        android:src="@drawable/michelin"/>
+        android:src="@drawable/michelin"
+        android:paddingTop="45dp"
+        android:paddingBottom="15dp"/>
 
     <!-- 첫 번째 행 (이미지 버튼 3개) -->
     <TableRow
@@ -52,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="제육볶음(급식대가)"
+            android:text="제육볶음\n(급식대가)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -61,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="김(이모카세 1호)"
+            android:text="김\n(이모카세 1호)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -70,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="팔보완자(철가방 요리사)"
+            android:text="팔보완자\n(철가방 요리사)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
     </TableRow>
@@ -118,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="시래시바쓰흑초강정(정지선)"
+            android:text="시래시바쓰흑초강정\n(정지선)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -127,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="무 스테이크(최강록)"
+            android:text="무 스테이크\n(최강록)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -136,7 +138,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="쿠로 다마네기(장호준)"
+            android:text="쿠로 다마네기\n(장호준)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -183,7 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="밤티라미수(나폴리맛피아)"
+            android:text="밤티라미수\n(나폴리맛피아)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 
@@ -192,7 +194,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="알리오올리오(히든천재)"
+            android:text="알리오올리오\n(히든천재)"
             android:textSize="14sp"
             android:textColor="@android:color/black" />
 

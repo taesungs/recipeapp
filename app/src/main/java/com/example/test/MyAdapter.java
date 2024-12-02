@@ -4,8 +4,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
@@ -14,6 +16,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public MyAdapter(List<String> itemList) {
         this.itemList = itemList;
+    }   // 생성자: 리스트를 인수로 받아, iemList 리스르를 초기화함
+
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
+        TextView textView;
+
+        public MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+            textView = itemView.findViewById(android.R.id.text1);
+        }
     }
 
     @NonNull
@@ -31,15 +42,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public int getItemCount() {
         return itemList.size();
-    }
+    }   // 리스트의 크기 반환하는 메소드
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView textView;
 
-        public MyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            textView = itemView.findViewById(android.R.id.text1);
-        }
-    }
 }
 

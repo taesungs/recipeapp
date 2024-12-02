@@ -19,7 +19,7 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ShopViewHolder
         this.itemList = itemList;
         this.itemCheckedList = new ArrayList<>();
         for (int i = 0; i < itemList.size(); i++) {
-            itemCheckedList.add(false); // 기본적으로 모두 선택된 상태
+            itemCheckedList.add(false); // 기본적으로 모두 '선택해제'된 상태
         }
     }
 
@@ -48,7 +48,7 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ShopViewHolder
         return itemList.size();
     }
 
-    // 삭제할 항목의 인덱스를 반환
+    // 삭제할 항목의 '인덱스'를 담은 리스트 반환
     public ArrayList<Integer> getSelectedItemPositions() {
         ArrayList<Integer> positions = new ArrayList<>();
         for (int i = 0; i < itemCheckedList.size(); i++) {
@@ -62,9 +62,22 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ShopViewHolder
     public static class ShopViewHolder extends RecyclerView.ViewHolder {
         CheckBox checkBox;
 
-        public ShopViewHolder(@NonNull View itemView) {
+        public ShopViewHolder(@NonNull View itemView) { // 체크박스 위젯 연결
             super(itemView);
             checkBox = itemView.findViewById(R.id.checkbox_item);
         }
     }
+
+    public void updateItemList(ArrayList<String> newItems) {
+        this.itemList.addAll(newItems); // 기존 리스트에 추가
+        for (int i = 0; i < newItems.size(); i++) {
+            itemCheckedList.add(false); // 새로 추가된 항목의 체크 상태 초기화
+        }
+        notifyDataSetChanged(); // RecyclerView 업데이트
+    }
+
+
+
+
+
 }

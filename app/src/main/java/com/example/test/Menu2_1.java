@@ -74,8 +74,8 @@ public class Menu2_1 extends AppCompatActivity {
                     }
                 }
 
-                // 데이터를 Shop 싱글톤 클래스에 저장
-                Shop.getInstance().updateData(selectedItems);
+                // 데이터를 Shop 싱글톤 클래스에 저장 (추가)
+                Shop.getInstance().addData(selectedItems);
             }
         });
     }

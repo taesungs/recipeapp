@@ -160,7 +160,8 @@
             android:id="@+id/shop1_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="쇼핑카트에 재료 추가"/>
+            android:text="쇼핑카트에 재료 추가"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/move1_1"
